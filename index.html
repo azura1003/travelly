@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="en">btn
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,9 +29,41 @@
         <ul>
           <li><a href="#locations">Locations</a></li>
           <li><a href="#benefices">Benefits</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <div class="centert">
+            <button>
+              <li id="show-login">Login</li>
+            </button>
+          </div>
+          
         </ul>
       </nav>
+      <!-- pop up login-->
+      <div class="pop-up">
+        <div class="close-btn">&times;</div>
+          <div class="form">
+            <h2>Login</h2>
+           <div class="form-element">
+             <label for="email">Email</label>
+             <input type="text" id="email" placeholder="Entrer votre email">
+          <div class="form-element">
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" placeholder="entrer mot de passe">
+          </div>
+          </div>
+          <div class="form-element">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me">Se souvenir</label>
+          </div>
+          <div class="form-element">
+            <button>Sign in</button>
+          </div>
+          <div class="form-element">
+            <a href="#">Mot de passe oublié ?</a>
+          </div>
+        </div>
+      
+      </div>
+      <!-- fin pop up login-->
     </header>
     <section class="hero">
       <h2 class="test">Travel beyond limits.</h2>
@@ -47,4 +79,5 @@
       </header>
     </section>
   </body>
+  <script src="/file_js/login-popup.js"></script>
 </html>
